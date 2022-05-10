@@ -1,0 +1,73 @@
+input {
+    /* Resize automatically with word wrap*/
+    width: 100%;
+    height: auto;
+    /* Hide scllbars */
+    overflow: hidden;
+    /* Disable selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    word-wrap: break-word;
+    align-items: top;
+}
+
+button {
+    /* Fancy Button */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    /* Center button */
+    margin: 0 auto;
+    width: 100%;
+    /* Make button wider */
+    max-width: 200px;
+    /* Make button taller */
+    max-height: 50px;
+    /* Make button round */
+    border-radius: 10px;
+    /* Make button shadow */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    /* Fancy Writing */
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    /* Center */
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    /* Margin Top*/
+    margin-top: 50px;
+    /* Margin Bottom*/
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    qmy9
+}
+
+html {
+    /* Background */
+    background-color: #f2f2f2;
+}
