@@ -1,14 +1,31 @@
 <head>
+    <meta charset="utf-8">
+    <title>Bird Language Translator</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Home</title>
     <script src="script.js"></script>
 </head>
 
-<body>
-    <input id="inp">
+<body onload="execute()">
+    <h2>Bird Language Translator</h2>
+    <input id="inp" class="inp" style="overflow:hidden"></input>
+    <br>
     <button id="btn">
-        Translate
+    Translate
     </button>
     <br>
-    <a id="txt">-</a>
+    <button class="cls" id="cls">Clear</button>
+    <br> Letter: <select name="Letter" id="ltr">
+    <option value="p">p</option>
+    <option value="g">g</option>
+    <option value="">🔧</option>
+    </select>
+    <input class="ltr" id="ltrr" value="" hidden>
+    <br>
+    <div id="txt" class="txt" readonly>
+
+    </div>
+    <br>
+    <button id="copy" hidden>
+      Select All
+    </button>
 </body>
